@@ -2,7 +2,7 @@
 
 A cinematic dark editorial single-page developer and data analytics portfolio website.
 
-**Live site:** https://pachipala-snehalatha-reddy-portfolio/
+**Live site:** https://pachipala-snehalatha-reddy-portfolio.vercel.app/
 
 ## Tech Stack
 - **Framework:** React 19 + Vite

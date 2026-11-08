@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pachipala-snehalatha-reddy-portfolio/sitemap.xml
+Sitemap: https://pachipala-snehalatha-reddy-portfolio.vercel.app/sitemap.xml
