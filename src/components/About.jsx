@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { personalInfo, aboutContent, skillRows } from '../data/portfolioData'
+import { aboutContent, skillRows } from '../data/portfolioData'
 
 // Register ScrollTrigger plugin
 gsap.registerPlugin(ScrollTrigger)
@@ -44,7 +44,7 @@ export default function About() {
             scrollTrigger: {
               trigger: mobileHeadingEl,
               start: 'top 85%',
-              toggleActions: 'play none none reverse',
+              once: true,
             },
           }
         )
@@ -63,7 +63,7 @@ export default function About() {
             scrollTrigger: {
               trigger: desktopHeadingEl,
               start: 'top 85%',
-              toggleActions: 'play none none reverse',
+              once: true,
             },
           }
         )
@@ -132,7 +132,7 @@ export default function About() {
             {aboutImageSrc ? (
               <img
                 src={aboutImageSrc}
-                alt={`${personalInfo.name} — portrait`}
+                alt="PACHIPALA SNEHALATHA REDDY — DATA ANALYTICS, TAP Academy student"
                 className="w-[190px] sm:w-[220px] md:w-[260px] h-auto object-contain [filter:drop-shadow(0_30px_50px_rgba(0,0,0,0.7))]"
               />
             ) : (
