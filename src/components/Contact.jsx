@@ -256,7 +256,7 @@ export default function Contact() {
         <div>
           {/* Main Heading */}
           <div ref={headingRef}>
-            <h2 className="text-[clamp(3rem,8vw,6.5rem)] font-black uppercase leading-none tracking-tighter select-none mb-12 bg-gradient-to-b from-[#ffffff] via-[#d4d4d8] to-[#52525b] bg-clip-text text-transparent [filter:drop-shadow(0_20px_40px_rgba(0,0,0,0.6))]">
+            <h2 className="text-[clamp(3rem,9vw,6.5rem)] font-black uppercase leading-none tracking-tighter select-none mb-12 bg-gradient-to-b from-[#ffffff] via-[#d4d4d8] to-[#52525b] bg-clip-text text-transparent [filter:drop-shadow(0_20px_40px_rgba(0,0,0,0.6))]">
               {contactContent.heading}
             </h2>
           </div>
